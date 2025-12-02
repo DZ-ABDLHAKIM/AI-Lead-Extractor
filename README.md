@@ -6,9 +6,6 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 
 ![AI Contact Intelligence Extractor](https://raw.githubusercontent.com/DZ-ABDLHAKIM/ai-contact-intelligence/refs/heads/main/unnamed.png)
 
-
----
-
 ## Key Features
 
 ### 🎯 Dual Extraction Modes

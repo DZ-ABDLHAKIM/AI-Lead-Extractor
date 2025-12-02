@@ -4,7 +4,7 @@
 
 This powerful Apify actor combines traditional web scraping with advanced AI capabilities to extract exactly what you need from any website. Whether you're collecting contact information, generating summaries, or creating custom data structures, this actor adapts to your specific requirements.
 
-![AI Contact Intelligence Extractor](https://raw.githubusercontent.com/DZ-ABDLHAKIM/YouTube-Scraper-Pro-Full-Channel-Playlists-..etc./refs/heads/main/YouTube-Transcript-Pro.jpg)
+![AI Contact Intelligence Extractor](https://raw.githubusercontent.com/DZ-ABDLHAKIM/ai-contact-intelligence/refs/heads/main/unnamed.png)
 
 
 ---

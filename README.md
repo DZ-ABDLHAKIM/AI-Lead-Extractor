@@ -1,17 +1,17 @@
-#  AI Contact Intelligence Extractor
+#  AI Lead Extractor
 
 **Extract any information from websites using intelligent AI - from contact details to custom data fields, summaries, and creative content.**
 
 This powerful Apify actor combines traditional web scraping with advanced AI capabilities to extract exactly what you need from any website. Whether you're collecting contact information, generating summaries, or creating custom data structures, this actor adapts to your specific requirements.
 
-![AI Contact Intelligence Extractor](https://raw.githubusercontent.com/DZ-ABDLHAKIM/ai-contact-intelligence/refs/heads/main/unnamed.png)
+![AI Lead Extractor](https://raw.githubusercontent.com/DZ-ABDLHAKIM/ai-lead-extractor/refs/heads/main/unnamed.png)
 
 ## Key Features
 
 ### 🎯 Dual Extraction Modes
 
 **🆓 Free Tier - Basic Extraction + AI (Pay-Per-Use)**
-- **Contact Information** - Emails, phone numbers, social media links
+- **Lead Information** - Emails, phone numbers, social media links
 - **AI-Powered Extraction** - Available via pay-per-use model through your Apify account
 - **Simple AI Model** - Fast and efficient extraction for common tasks
 - **Perfect for Testing** - Try AI features before upgrading
@@ -29,7 +29,7 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 ### ⚡ Performance & Reliability
 - **Full Browser Rendering** - Handles all modern websites with JavaScript support
 - **Screenshot Capture** - Automatically captures page screenshots for reference
-- **Smart Token Management** - Automatic overflow protection (15,000 token limit)
+- **Smart Token Management** - Automatic overflow protection (30,000 token limit)
 - **Automatic Retry Logic** - Built-in error recovery with exponential backoff for rate limits
 - **Graceful Fallback** - Switches to basic extraction if AI fails
 - **Memory-Based Billing** - Transparent, predictable pricing model
@@ -45,9 +45,8 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 
 ### Free Users (Basic + AI Pay-Per-Use)
 1. **Input URLs** - Provide one or more website links
-2. **Choose Mode** - Use basic extraction only, or enable AI (charges per use)
-3. **AI Optional** - Pay per request to access AI-powered extraction
-4. **Get Results** - Contact data + optional AI insights in structured JSON
+2. **AI Optional** - Pay per request to access AI-powered extraction
+3. **Get Results** - Lead data + optional AI insights in structured JSON
 
 ### Paid Users (Premium AI Included)
 1. **Input URLs** - Provide one or more website links
@@ -101,7 +100,7 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 
 ### Advanced AI Extraction Examples
 
-**Extract Specific Contact Info:**
+**Extract Specific Lead Info:**
 ```json
 {
   "aiInstructions": "Extract CEO name, support email, and company address"
@@ -274,7 +273,7 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 ## 🎯 What Can AI Extract?
 
 ### 📋 Structured Data
-- **Contact Information** - "Extract all emails, phone numbers, and addresses"
+- **Lead Information** - "Extract all emails, phone numbers, and addresses"
 - **Team Members** - "List all team members with their names and roles"
 - **Pricing Plans** - "Extract pricing tiers with features and costs"
 - **Product Details** - "Find product names, descriptions, and specifications"
@@ -328,7 +327,7 @@ This powerful Apify actor combines traditional web scraping with advanced AI cap
 ## 💡 Professional Use Cases
 
 ### 🎯 Lead Generation & Sales
-- **Contact Discovery** - Extract emails and phone numbers from company websites
+- **Lead Discovery** - Extract emails and phone numbers from company websites
 - **Prospect Research** - Gather company information and key personnel details
 - **Market Intelligence** - Analyze competitor offerings and pricing
 - **Outreach Personalization** - Extract company details for personalized messaging
@@ -421,7 +420,7 @@ Export data in JSON, CSV, Excel, or via API.
 - ✅ Predictable costs
 
 ### Token Limits
-- **15,000 token limit per page** - Pages exceeding this limit automatically fallback to basic extraction
+- **30,000 token limit per page** - Pages exceeding this limit automatically fallback to basic extraction
 - **Instruction limit:** 75 words / 500 characters
 - Long instructions are automatically truncated
 
@@ -474,9 +473,6 @@ A: The actor automatically falls back to basic extraction, so you always get con
 
 ### Q: Can I process multiple URLs at once?
 A: Yes! Provide multiple URLs in the `startUrls` array for batch processing.
-
-### Q: Why does the actor always use Browser mode?
-A: Browser mode ensures maximum reliability by fully rendering JavaScript, handling modern web applications, and capturing screenshots. It works on 99% of websites.
 
 ---
 
@@ -539,4 +535,4 @@ This actor is provided as-is for use on the Apify platform. Use responsibly and 
 
 ---
 
-**Ready to extract any data from any website?** [Start using AI Contact Intelligence Extractor now!](https://apify.com/dz_omar/ai-contact-intelligence?fpr=smcx63)
+**Ready to extract any data from any website?** [Start using AI Lead Extractor now!](https://apify.com/dz_omar/ai-lead-extractor?fpr=smcx63)
